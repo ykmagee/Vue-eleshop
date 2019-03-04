@@ -61,8 +61,8 @@
         "content": "【立减19.8】半价单人餐"
       }
     ],
-    "avatar": "https://fuss10.elemecdn.com/d/b1/1b69b8cf603743b02d9a84d6f4d42png.png?imageMogr/format/webp/thumbnail/150x/",
-    "bgImg": "https://fuss10.elemecdn.com/9/76/b266026c3b3fa94353e3d7e576d51png.png?imageMogr/format/webp/thumbnail/750x/",
+    "avatar": "https://fuss10.elemecdn.com/d/b1/1b69b8cf603743b02d9a84d6f4d42png.png?imageMogr/thumbnail/150x/",
+    "bgImg": "https://fuss10.elemecdn.com/9/76/b266026c3b3fa94353e3d7e576d51png.png?imageMogr/thumbnail/750x/",
     "pics": [      
       "https://fuss10.elemecdn.com/6/82/2cd3d681f5e93292b3eb49d6b412ajpeg.jpeg",
       "https://fuss10.elemecdn.com/8/93/4cf527b6462eea634f69755374f88jpeg.jpeg",
@@ -570,8 +570,8 @@
               "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
             }
           ],
-          "icon": "https://fuss10.elemecdn.com/5/7b/0af500733bb676d2a0a329ef1a078jpeg.jpeg?imageMogr/format/webp/thumbnail/!140x140r/gravity/Center/crop/140x140/",
-          "image": "https://fuss10.elemecdn.com/5/7b/0af500733bb676d2a0a329ef1a078jpeg.jpeg?imageMogr/format/webp/thumbnail/!750x750r/gravity/Center/crop/750x750/"
+          "icon": "https://fuss10.elemecdn.com/5/7b/0af500733bb676d2a0a329ef1a078jpeg.jpeg?imageMogr/thumbnail/!140x140r/gravity/Center/crop/140x140/",
+          "image": "https://fuss10.elemecdn.com/5/7b/0af500733bb676d2a0a329ef1a078jpeg.jpeg?imageMogr/thumbnail/!750x750r/gravity/Center/crop/750x750/"
         }
       ]
     },
@@ -1824,13 +1824,13 @@
       "pictures": [
         {
           "name": "皮蛋瘦肉粥",
-          "small": "https://fuss10.elemecdn.com/9/8a/1a316145e5861e559897e2e9f4897jpeg.jpeg?imageMogr/format/webp/thumbnail/300x/",
-          "big": "https://fuss10.elemecdn.com/9/8a/1a316145e5861e559897e2e9f4897jpeg.jpeg?imageMogr/format/webp/thumbnail/750x/"
+          "small": "https://fuss10.elemecdn.com/9/8a/1a316145e5861e559897e2e9f4897jpeg.jpeg?imageMogr/thumbnail/300x/",
+          "big": "https://fuss10.elemecdn.com/9/8a/1a316145e5861e559897e2e9f4897jpeg.jpeg?imageMogr/thumbnail/750x/"
         },
         {
           "name": "蒸饺",
-          "small": "https://fuss10.elemecdn.com/8/ef/a2ff0490126a87d3810b16c6ed944jpeg.jpeg?imageMogr/format/webp/thumbnail/300x/",
-          "big": "https://fuss10.elemecdn.com/8/ef/a2ff0490126a87d3810b16c6ed944jpeg.jpeg?imageMogr/format/webp/thumbnail/750x/"
+          "small": "https://fuss10.elemecdn.com/8/ef/a2ff0490126a87d3810b16c6ed944jpeg.jpeg?imageMogr/thumbnail/300x/",
+          "big": "https://fuss10.elemecdn.com/8/ef/a2ff0490126a87d3810b16c6ed944jpeg.jpeg?imageMogr/thumbnail/750x/"
         }
       ],
       "recommend": [
@@ -1879,8 +1879,8 @@
       "pictures": [
         {
           "name": "田园蔬菜粥",
-          "small": "https://fuss10.elemecdn.com/c/d6/30e1ec49530428c1e332bcd5bb4d9jpeg.jpeg?imageMogr/format/webp/thumbnail/300x/",
-          "big": "https://fuss10.elemecdn.com/c/d6/30e1ec49530428c1e332bcd5bb4d9jpeg.jpeg?imageMogr/format/webp/thumbnail/750x/"
+          "small": "https://fuss10.elemecdn.com/c/d6/30e1ec49530428c1e332bcd5bb4d9jpeg.jpeg?imageMogr/thumbnail/300x/",
+          "big": "https://fuss10.elemecdn.com/c/d6/30e1ec49530428c1e332bcd5bb4d9jpeg.jpeg?imageMogr/thumbnail/750x/"
         }
       ],
       "recommend": []
@@ -1921,18 +1921,18 @@
       "pictures": [
         {
           "name": "八宝酱菜",
-          "small": "https://fuss10.elemecdn.com/b/fc/7c77c15456cc20ac75e7b4a340f63jpeg.jpeg?imageMogr/format/webp/thumbnail/196x/",
-          "big": "https://fuss10.elemecdn.com/b/fc/7c77c15456cc20ac75e7b4a340f63jpeg.jpeg?imageMogr/format/webp/thumbnail/750x/"
+          "small": "https://fuss10.elemecdn.com/b/fc/7c77c15456cc20ac75e7b4a340f63jpeg.jpeg?imageMogr/thumbnail/196x/",
+          "big": "https://fuss10.elemecdn.com/b/fc/7c77c15456cc20ac75e7b4a340f63jpeg.jpeg?imageMogr/thumbnail/750x/"
         },
         {
           "name": "皮蛋瘦肉粥",
-          "small": "https://fuss10.elemecdn.com/6/58/dcb43af1f45d9808e33d75080bf38jpeg.jpeg?imageMogr/format/webp/thumbnail/196x/",
-          "big": "https://fuss10.elemecdn.com/6/58/dcb43af1f45d9808e33d75080bf38jpeg.jpeg?imageMogr/format/webp/thumbnail/750x/"
+          "small": "https://fuss10.elemecdn.com/6/58/dcb43af1f45d9808e33d75080bf38jpeg.jpeg?imageMogr/thumbnail/196x/",
+          "big": "https://fuss10.elemecdn.com/6/58/dcb43af1f45d9808e33d75080bf38jpeg.jpeg?imageMogr/thumbnail/750x/"
         },
         {
           "name": "牛肉馅饼",
-          "small": "https://fuss10.elemecdn.com/b/d0/adc4ab07b15d0b5a8c49d2ade25cbjpeg.jpeg?imageMogr/format/webp/thumbnail/196x/",
-          "big": "https://fuss10.elemecdn.com/b/d0/adc4ab07b15d0b5a8c49d2ade25cbjpeg.jpeg?imageMogr/format/webp/thumbnail/750x/"
+          "small": "https://fuss10.elemecdn.com/b/d0/adc4ab07b15d0b5a8c49d2ade25cbjpeg.jpeg?imageMogr/thumbnail/196x/",
+          "big": "https://fuss10.elemecdn.com/b/d0/adc4ab07b15d0b5a8c49d2ade25cbjpeg.jpeg?imageMogr/thumbnail/750x/"
         }
       ],
       "recommend": [
@@ -1987,8 +1987,8 @@
       "pictures": [
         {
           "name": "皮蛋瘦肉粥",
-          "small": "https://fuss10.elemecdn.com/6/67/2f9692a97c3ddc34ce2b406c54f78jpeg.jpeg?imageMogr/format/webp/thumbnail/300x/",
-          "big": "https://fuss10.elemecdn.com/6/67/2f9692a97c3ddc34ce2b406c54f78jpeg.jpeg?imageMogr/format/webp/thumbnail/750x/"
+          "small": "https://fuss10.elemecdn.com/6/67/2f9692a97c3ddc34ce2b406c54f78jpeg.jpeg?imageMogr/thumbnail/300x/",
+          "big": "https://fuss10.elemecdn.com/6/67/2f9692a97c3ddc34ce2b406c54f78jpeg.jpeg?imageMogr/thumbnail/750x/"
         }
       ],
       "recommend": []
@@ -2015,8 +2015,8 @@
       "pictures": [
         {
           "name": "皮蛋瘦肉粥",
-          "small": "https://fuss10.elemecdn.com/4/e8/1069245f75f9a832afc69ed4d6be3jpeg.jpeg?imageMogr/format/webp/thumbnail/300x/",
-          "big": "https://fuss10.elemecdn.com/4/e8/1069245f75f9a832afc69ed4d6be3jpeg.jpeg?imageMogr/format/webp/thumbnail/750x/"
+          "small": "https://fuss10.elemecdn.com/4/e8/1069245f75f9a832afc69ed4d6be3jpeg.jpeg?imageMogr/thumbnail/300x/",
+          "big": "https://fuss10.elemecdn.com/4/e8/1069245f75f9a832afc69ed4d6be3jpeg.jpeg?imageMogr/thumbnail/750x/"
         }
       ],
       "recommend": []
@@ -2065,8 +2065,8 @@
       "pictures": [         
         {
           "name": "南瓜粥",
-          "small": "https://fuss10.elemecdn.com/b/8f/44212854eb2c0af1d1a95aac64433jpeg.jpeg?imageMogr/format/webp/thumbnail/300x/",
-          "big": "https://fuss10.elemecdn.com/b/8f/44212854eb2c0af1d1a95aac64433jpeg.jpeg?imageMogr/format/webp/thumbnail/750x/"
+          "small": "https://fuss10.elemecdn.com/b/8f/44212854eb2c0af1d1a95aac64433jpeg.jpeg?imageMogr/thumbnail/300x/",
+          "big": "https://fuss10.elemecdn.com/b/8f/44212854eb2c0af1d1a95aac64433jpeg.jpeg?imageMogr/thumbnail/750x/"
         }
       ],
       "recommend": []
@@ -2104,8 +2104,8 @@
       "pictures": [         
         {
           "name": "皮蛋瘦肉粥",
-          "small": "https://fuss10.elemecdn.com/3/c6/c386a940697fbfaee5c2cae0ad17fjpeg.jpeg?imageMogr/format/webp/thumbnail/300x/",
-          "big": "https://fuss10.elemecdn.com/3/c6/c386a940697fbfaee5c2cae0ad17fjpeg.jpeg?imageMogr/format/webp/thumbnail/750x/"
+          "small": "https://fuss10.elemecdn.com/3/c6/c386a940697fbfaee5c2cae0ad17fjpeg.jpeg?imageMogr/thumbnail/300x/",
+          "big": "https://fuss10.elemecdn.com/3/c6/c386a940697fbfaee5c2cae0ad17fjpeg.jpeg?imageMogr/thumbnail/750x/"
         }
       ],
       "recommend": []

@@ -128,6 +128,7 @@
         font-size: 0.13rem;
       }
       .iconfont{
+        font-size: 0.16rem;
         position: absolute;
         top: 50%;
         left: 12.6vw;
