@@ -26,14 +26,34 @@
 				<span>我的</span>
 			</router-link>
 		</footer>
+		<div id="footer_beian">
+      <p>鄂ICP备 19003943号</p>
+      <p>鄂公网安备 42018502003419号</p>
+    </div>
 	</footer>
 	  
 </template>
 
 <script>
 	export default {
+		mounted(){
+			this.hiddenBeian();
+      window.addEventListener('resize',this.hiddenBeian);
+		},
+		// 实例销毁后解除全局事件绑定
+	  destroyed(){
+	  	window.removeEventListener('resize',this.hiddenBeian);
+	  },
 	  methods:{
-	  	
+	  	// 移动端隐藏备案号
+      hiddenBeian(){
+      	const footerBeian = document.getElementById('footer_beian');
+        if (this.isPC()) {        	
+        	footerBeian.style.display='block';          
+        }else{
+        	footerBeian.style.display='none';
+        }
+      }
 	  }
 	}
 </script>
@@ -44,7 +64,17 @@
 	@import "../../assets/css/mixins.scss";
 	.footer_wrapper{
 		height: 0.5rem;
-	}
+	}	
+  #footer_beian{
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10000;
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+  }
 	.footer_guide{
 		@include top-border-1px($bc);
 		position: fixed;

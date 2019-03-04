@@ -17,7 +17,9 @@
     },
     created(){
       // 通过this.$store.dispatch 方法触发调用Action
-      this.$store.dispatch('getUserInfo')     
+      this.$store.dispatch('getUserInfo');
+      // 去掉加载动画
+      document.body.removeChild(document.getElementById('loading'));          
 
       // //在页面加载时读取sessionStorage里的状态信息
       // if (sessionStorage.getItem("store") ) {
@@ -27,11 +29,10 @@
       // window.addEventListener("beforeunload",()=>{
       //     sessionStorage.setItem("store",JSON.stringify(this.$store.state))
       // })
+    },
+    methods:{
+      
     }
-    // ,
-    // mounted(){
-    // 
-    // }
   }
 </script>
 

@@ -26,7 +26,7 @@
 	  	<HomeNav></HomeNav>
 
 	  	<!--首页附近商家列表-->
-			<div class="home_shop_list" v-infinite-scroll="loadMore" infinite-scroll-disabled="loading" infinite-scroll-distance="-50">
+			<div class="home_shop_list" v-infinite-scroll="loadMore" infinite-scroll-disabled="loading" infinite-scroll-distance="10">
 				<div class="shop_header">
 					<i class="iconfont icon-shop"></i>
 	        <span class="shop_header_title">附近商家</span>

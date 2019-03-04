@@ -38,7 +38,7 @@
     	</ul>
     	<p class="switch iconfont icon-check-circle" :class="{on: onlyShowText}" @click="toggleOnlyShowText()">只看有内容的评价</p>
     	<!-- 用mint-ui的InfiniteScroll无限加载 -->
-    	<ul class="rating_list" v-infinite-scroll="loadMore" infinite-scroll-disabled="loading" infinite-scroll-distance="10">
+    	<ul class="rating_list" v-infinite-scroll="loadMore" infinite-scroll-disabled="loading" infinite-scroll-distance="20">
     		<!-- 根据评价标签的状态，过滤出满足要求的评论显示 -->
     		<li class="rating_item" v-for="(rating, index) in filterRatings" :key="index">
     			<div class="avatar">

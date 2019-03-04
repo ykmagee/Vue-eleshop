@@ -19,6 +19,7 @@ exports.install = function (Vue, options) {
     	}
     }
 	}
+
 	// 缓动动画封装
 	Vue.prototype.animate = function (ele,json,fn){		
 		//先清定时器
@@ -59,7 +60,7 @@ exports.install = function (Vue, options) {
 				clearInterval(ele.timer);
 				//所有程序执行完毕了，现在可以执行回调函数了
         //只有传递了回调函数，才能执行
-				fn && fn.call(obj);
+				fn && fn();
 			}
 		},1);
 		// 获取元素样式兼容写法
@@ -69,5 +70,16 @@ exports.install = function (Vue, options) {
 	    }
 	    return ele.currentStyle[attr];
 		}
+	}
+
+	// 判断是否为PC端
+	Vue.prototype.isPC = function (){
+		var userAgentInfo = navigator.userAgent;  
+    var Agents = new Array("Android", "iPhone", "SymbianOS", "Windows Phone", "iPad", "iPod");  
+    var flag = true;  
+    for (var v = 0; v < Agents.length; v++) {  
+       if (userAgentInfo.indexOf(Agents[v]) > 0) { flag = false; break; }  
+    }  
+    return flag;
 	}
 }

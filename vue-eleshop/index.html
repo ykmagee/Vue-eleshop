@@ -5,10 +5,68 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>EleShop</title>    
     <!-- 引入Iconfont -->
-	  <link rel="stylesheet" href="http://at.alicdn.com/t/font_976338_yi8yu3bvgf8.css">    
+	  <link rel="stylesheet" href="http://at.alicdn.com/t/font_976338_yi8yu3bvgf8.css">  
+    <style type="text/css">
+      #loading {
+        top:50%;
+        left:50%;
+        position: absolute;
+        -webkit-transform: translateY(-50%)  translateX(-50%);
+        transform: translateY(-50%)  translateX(-50%);
+        z-index:10000;
+      }
+      @-webkit-keyframes ball-beat {
+        50% {
+          opacity: 0.2;
+          -webkit-transform: scale(0.75);
+          transform: scale(0.75); 
+        } 
+        100% {
+          opacity: 1;
+          -webkit-transform: scale(1);
+          transform: scale(1); 
+        } 
+      } 
+      @keyframes ball-beat {
+        50% {
+          opacity: 0.2;
+          -webkit-transform: scale(0.75);
+          transform: scale(0.75); 
+        } 
+        100% {
+          opacity: 1;
+          -webkit-transform: scale(1);
+          transform: scale(1); 
+          } 
+        } 
+      .ball-beat > div {
+        background-color: #6666CC;
+        width: 15px;
+        height: 15px;
+        border-radius: 100% !important;
+        margin: 2px;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        display: inline-block;
+        -webkit-animation: ball-beat 1.4s 0s infinite linear;
+        animation: ball-beat 1.4s 0s infinite linear; 
+      }
+      .ball-beat > div:nth-child(2n-1) {
+        -webkit-animation-delay: 0.7s !important;
+        animation-delay: 0.7s !important; 
+      }
+    </style>  
   </head>
   <body>
+    <!-- 加载动画 -->
+    <div id="loading">
+      <div class="loader-inner ball-beat">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
     <div id="app"></div>
-    <!-- built files will be auto injected -->
+    <!-- built files will be auto injected -->    
   </body>
 </html>

@@ -192,6 +192,8 @@
 				height: 100%;
 				background-color: #f5f5f5;
 				overflow-y: auto;
+				// 解决iPhone中滑动速度慢或者卡的问题
+				-webkit-overflow-scrolling : touch;
 				&>ul{width: 100%;}
 				padding-bottom: 0.3rem;
 				// 隐藏左侧菜单栏的滚动条
@@ -235,6 +237,8 @@
 				// padding-left: 0.1rem;
 				.foods_list{
 					overflow-y: auto;
+					// 解决iPhone中滑动速度慢或者卡的问题
+					-webkit-overflow-scrolling : touch;
 					dt{
 						padding: 0.08rem 0.3rem 0.08rem 0.1rem;
 						overflow: hidden;

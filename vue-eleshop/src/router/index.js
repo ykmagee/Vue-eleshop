@@ -1,14 +1,20 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-import Home from '../views/Home/HomeView.vue';
-import Order from '../views/Order/OrderView.vue';
-import Personal from '../views/Personal/PersonalView.vue';
-import Search from '../views/Search/SearchView.vue';
+// import Home from '../views/Home/HomeView.vue';
+// import Order from '../views/Order/OrderView.vue';
+// import Personal from '../views/Personal/PersonalView.vue';
+// import Search from '../views/Search/SearchView.vue';
 import Shop from '../views/Shop/Shop.vue';
 import ShopGoods from '../views/Shop/ShopGoods/ShopGoods.vue';
 import ShopRatings from '../views/Shop/ShopRatings/ShopRatings.vue';
 import ShopInfo from '../views/Shop/ShopInfo/ShopInfo.vue';
 import Login from '../views/Login/Login.vue';
+
+// 路由组件懒加载
+const Home = () => import('../views/Home/HomeView.vue')
+const Order = () => import('../views/Order/OrderView.vue')
+const Personal = () => import('../views/Personal/PersonalView.vue')
+const Search = () => import('../views/Search/SearchView.vue')
 
 Vue.use(Router);
 
