@@ -87,7 +87,7 @@ export default {
   recordUser ({commit}, userInfo) {
     commit(RECEIVE_USER_INFO, {userInfo})
     sessionStorage.setItem("user_id",JSON.stringify(userInfo._id))
-    localStorage.setItem("searchHistory",JSON.stringify(userInfo.searchHistory))
+    // localStorage.setItem("searchHistory",JSON.stringify(userInfo.searchHistory))
   },
   // 异步获取用户信息
   async getUserInfo ({commit}) {

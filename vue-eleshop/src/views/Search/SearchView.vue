@@ -56,7 +56,7 @@
 	      showResult: false, // 是否显示搜索结果页面，true为显示
 	      hasMoreData: true, // 是否还有更多搜索结果
 	      searchHistory: [], // 搜索历史
-	      hotSearch: ['炒饭','烧烤','饺子'] // 热门搜索
+	      hotSearch: ['面','饭','饺子'] // 热门搜索
 	    }
 	  },
 
